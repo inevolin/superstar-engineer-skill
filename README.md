@@ -1,6 +1,6 @@
 # Superstar 10x Engineer AI Skill
 
-> Think like a staff engineer. Build like a principal.
+> Thinks and works like a 10x superstar principal engineer.
 
 An AI skill for high-leverage software engineering judgment.
 
