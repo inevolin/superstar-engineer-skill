@@ -6,6 +6,30 @@ An AI skill for high-leverage software engineering judgment.
 
 This repo packages a reusable skill that pushes an agent to operate like a superstar 10x Principal/Staff-Level Software Engineer: simplify aggressively, reason from constraints, surface tradeoffs, plan for failure, and deliver the simplest defensible solution.
 
+## Install
+
+Install it directly with:
+
+```bash
+npx skills add inevolin/superstar-engineer-skill
+```
+
+Or place this skill manually in one of the supported skill directories:
+
+```text
+.github/skills/superstar-engineer/
+.agents/skills/superstar-engineer/
+.claude/skills/superstar-engineer/
+```
+
+The folder should contain:
+
+```text
+superstar-engineer/
+├── README.md
+└── SKILL.md
+```
+
 ## What It Does
 
 This skill is designed for requests that need more than raw code generation.
@@ -76,24 +100,6 @@ Try prompts like:
 ## Repo Contents
 
 - [SKILL.md](./SKILL.md) - the skill definition and behavioral contract
-
-## Install
-
-Place this skill in one of the supported skill directories:
-
-```text
-.github/skills/superstar-engineer/
-.agents/skills/superstar-engineer/
-.claude/skills/superstar-engineer/
-```
-
-The folder should contain:
-
-```text
-superstar-engineer/
-├── README.md
-└── SKILL.md
-```
 
 ## Why This Exists
 
